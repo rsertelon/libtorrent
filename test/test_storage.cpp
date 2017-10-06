@@ -48,7 +48,8 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "libtorrent/aux_/path.hpp"
 #include "libtorrent/aux_/storage_utils.hpp"
 #include "libtorrent/disk_io_job.hpp"
-#include "libtorrent/session_settings.hpp"
+#include "libtorrent/aux_/session_settings.hpp"
+#include "libtorrent/disk_io_thread.hpp"
 
 #include <memory>
 #include <functional> // for bind
